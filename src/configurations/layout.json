@@ -20,6 +20,15 @@
       "subMenuItems": []
     },
     {
+      "name": "Creat Certificate",
+      "type": "button",
+      "icon": "add",
+      "controller": "/createCert",
+      "customTitle": "Create Certificate",
+      "isFavourite": true,
+      "subMenuItems": []
+    },
+    {
       "name": "Logout",
       "type": "logout",
       "icon": "logout",

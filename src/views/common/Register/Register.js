@@ -43,8 +43,10 @@ export const Register = () => {
   const [confirmPassword, setConfirmPassword] = useState('');
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
+
   const register = () => {
   };
+  
   const validationCheck = () => {
     if (emailId.length < 0 || password.length < 0 || confirmPassword.length < 0 || firstName.length < 0 || lastName.length < 0
       || emailId === '' || password === '' || confirmPassword === '' || firstName === '' || lastName === '') {
@@ -61,7 +63,7 @@ export const Register = () => {
     if (emailPatternTest) {
       return register();
     }
-  }
+  };
 
   let content = (
     <div>
@@ -98,4 +100,4 @@ export const Register = () => {
     </div >
   );
   return content;
-}
+};
